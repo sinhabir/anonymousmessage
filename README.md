@@ -34,3 +34,31 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Below are the tech stack used in this project:
+
+`Front end- React js`
+
+`Framework- Next js (app router)`
+
+`Type safety- Typescript`
+
+`Schema validation- zod`
+
+`Emails - Resend/React email`
+
+`UI components- schadcn/ui `
+
+`CSS- Tailwind css`
+
+`Forms- React hook forms`
+
+`DB - mongoDB `
+
+`DB framework- mongoose`
+
+`Messages- toaster`
+
+`API calling- axios`
+
+`Password management- bcrypt`
