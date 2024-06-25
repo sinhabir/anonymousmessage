@@ -70,7 +70,8 @@ import { Loader2 } from "lucide-react"
                 title: 'Success',
                 description: response.data.message
             })
-            router.replace(`/verify/${username}`)
+            //router.replace(`/verify/${username}`)
+            router.replace(`/sign-in`)
             
         } catch (error) {
             console.error("Error in sign up of user", error)
