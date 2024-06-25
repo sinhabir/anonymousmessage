@@ -16,7 +16,7 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Loader2 } from "lucide-react"
 
- const signUp = () => {
+ const SignUp = () => {
     
     const [username, setUsername] = useState('second')
     const [usernameMessage, setUsernameMessage] = useState('')
@@ -185,4 +185,4 @@ import { Loader2 } from "lucide-react"
   )
 }
 
-export default signUp
+export default SignUp
