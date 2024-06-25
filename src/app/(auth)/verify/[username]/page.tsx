@@ -12,7 +12,7 @@ import React from 'react'
 import { useForm } from 'react-hook-form'
 import * as z  from 'zod'
 
-export default function  VerifyAccount(){
+export default function VerifyAccount(){
     const router = useRouter()
     const params = useParams<{username: string}>()
     const {toast} = useToast()

@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button"
 import { signInSchema } from "@/schemas/signInSchema"
 import { signIn } from "next-auth/react"
 
- const Page = () => {
+export default function SignInForm() {
   
     const { toast } = useToast()
     const router = useRouter()
@@ -112,4 +112,3 @@ import { signIn } from "next-auth/react"
   )
 }
 
-export default Page
